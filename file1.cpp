@@ -63,10 +63,18 @@ void display()
     cout << "=================================" << endl;
 
 
-    for (int  j = 0; j < count; i++)
+    for (int  j = 0; j < n; j++)
     {
-        /* code */
+        cout << arr[j] << endl;
     }
-    
+    cout << endl;
+}
 
+int main()
+{
+    input();
+    insertionSort();
+    display();
+    system("Pause");
+    return 0;
 }

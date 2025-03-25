@@ -23,7 +23,7 @@ void input()
     cout << endl;
     cout << "=========================" << endl;
     cout << "Masukkan Element Array : " << endl;
-    cout << "========================="
+    cout << "=========================" << endl;
 
     for (int i = 0; i < n; i++)
     {
